@@ -57,7 +57,7 @@ function clearAllTasks(){
         list.removeChild(list.firstChild);
       }
 
-    document.getElementById("tempText").innerHTML = 'Things to do will appear here';
+    document.getElementById("tempText").innerHTML = 'Add some things to do!';
 }
 
 async function addNewButton(){
@@ -74,7 +74,7 @@ function removeSingleItem(evt){
     element.remove();
 
     if (!document.getElementById("toDoItems").hasChildNodes()){
-        document.getElementById("tempText").innerHTML = 'Things to do will appear here';
+        document.getElementById("tempText").innerHTML = 'Add some things to do!';
     } 
 
 }
